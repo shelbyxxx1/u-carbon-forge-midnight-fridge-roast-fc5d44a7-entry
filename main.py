@@ -1,3 +1,10 @@
+"""Write the fixed ROAST string constant to the competition output.
+
+Use /output/entry.txt by default or $MAKEFUN_OUTPUT_DIR/entry.txt when set.
+The gate requires one nonblank UTF-8 line of 1–200 characters, with no
+trailing newline.
+"""
+
 import os
 import shutil
 from pathlib import Path
